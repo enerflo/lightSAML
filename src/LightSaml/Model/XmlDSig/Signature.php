@@ -22,4 +22,9 @@ abstract class Signature extends AbstractSamlModel
     {
         return 'ID';
     }
+
+    public function getCertificates()
+    {
+        return $this->certificates;
+    }
 }
